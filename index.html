@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>Run Buddy</title>
       <link rel="stylesheet" href="./assets/css/style.css" />
@@ -31,6 +32,7 @@
         </ul>
     </nav>
   </header>
+  <!--end navigation-->
   
   <!-- hero/jumbotron -->
   <section class="hero">
@@ -124,29 +126,31 @@
       <img src="./assets/images/step-3.svg" alt="empty text" />
         </div>
         <div class="step-text">
-      <h4>Get Running.</h4>
+      <h4>Get Running</h4>
       <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
         </div>
       </div>
-    </div>
-  
+    </div>  
     <div class="step">
       <h3>Step 4.</h3>
       <div class="step-info">
         <div class="step-image">
       <img src="./assets/images/step-4.svg" alt="empty text" />
         </div>
+        <div class="step-text">
       <h4>Results.</h4>
       <p>Bi-weekly checkins with your trainer will keep you focused</p>
       </div>
       </div>
     </div>
   </section>
+  <!--wwhat you do end-->
   
   <!-- "meet the trainers" section -->
   <section id="your-trainers">
-    
-    <h2>Meet The Trainers</h2>
+    <div class="flex-row">    
+    <h2 class="section-title primary-border">Meet The Trainers</h2>
+    </div>
   <div class="trainers">    
     <article class="trainer">
       <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
@@ -186,11 +190,14 @@
 </article>
  </div>
 </section>
+<!--meet the trainers ends-->
   
   <!-- "reach out" section -->
   <section id="reach-out" class="contact">
+    <div class="flex-row">
     <h2 class="section-title secondary-border">Reach Out</h2>
-    <div contact-info>
+    </div>
+    <div class="contact-info">
           
       <div>
         <h3>Run Buddy</h3>
@@ -211,11 +218,9 @@
         <h3>Contact Us</h3>
         <form>
           <label for="contact-name">Your Name</label>
-          <input type="text" id="contact-name" placeholder="Your Name" />
-    
+          <input type="text" id="contact-name" placeholder="Your Name" />    
           <label for="contact-message">Message</label>
-          <textarea id="contact-message" placeholder="Message"></textarea>
-    
+          <textarea id="contact-message" placeholder="Message"></textarea>    
           <button type="submit">Submit</button>
         </form>
       </div>
@@ -226,6 +231,7 @@
 
     </div>
   </section>
+  <!--reachout end-->
   
   <!-- footer -->
   <footer>
